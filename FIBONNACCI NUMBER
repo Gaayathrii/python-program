@@ -1,0 +1,17 @@
+INPUT:
+Num=int(input('Enter the fibonacci number:'))
+x=0
+y=1
+count=0
+for i in range(0,Num):
+    print(x, end=' ')
+    count=count+x
+    c=x+y
+    x=y
+    y=c
+
+
+OUTPUT:
+Enter the fibonacci number:20
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 
+
